@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1683830061 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/AdminCinema.cpp
+	"../headers/AdminCinema.h"
+
+1683830188 /home/eramoss/www/Univali/POO/CineCon/src/headers/AdminCinema.h
+	<string>
+	"Pessoa.h"
+	"Filme.h"
+	"ListaFilme.h"
+	"ListaSessao.h"
+	"ListaSala.h"
+
+1683751007 /home/eramoss/www/Univali/POO/CineCon/src/headers/Pessoa.h
+	<string>
+
+1683826257 /home/eramoss/www/Univali/POO/CineCon/src/headers/Filme.h
+	<string>
+
+1683830323 /home/eramoss/www/Univali/POO/CineCon/src/headers/ListaFilme.h
+	"Filme.h"
+	<ctime>
+	<vector>
+
+1683827450 /home/eramoss/www/Univali/POO/CineCon/src/headers/ListaSessao.h
+	<vector>
+	"Sessao.h"
+
+1684172085 /home/eramoss/www/Univali/POO/CineCon/src/headers/Sessao.h
+	<vector>
+	"Assento.h"
+	"Filme.h"
+	"Sala.h"
+
+1683508549 /home/eramoss/www/Univali/POO/CineCon/src/headers/Assento.h
+	<string>
+
+1683565884 /home/eramoss/www/Univali/POO/CineCon/src/headers/Sala.h
+	<string>
+	<vector>
+	"Assento.h"
+
+1683827817 /home/eramoss/www/Univali/POO/CineCon/src/headers/ListaSala.h
+	<vector>
+	"Sala.h"
+
+1683508559 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/Assento.cpp
+	"../headers/Assento.h"
+
+1683844038 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/Bilhete.cpp
+	"../headers/Bilhete.h"
+	<iostream>
+
+1683843264 /home/eramoss/www/Univali/POO/CineCon/src/headers/Bilhete.h
+	<string>
+	"Assento.h"
+	"Sessao.h"
+
+1684171977 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/Cliente.cpp
+	"../headers/Cliente.h"
+
+1684171973 /home/eramoss/www/Univali/POO/CineCon/src/headers/Cliente.h
+	<string>
+	"Pessoa.h"
+	"ListaCompra.h"
+
+1684172491 /home/eramoss/www/Univali/POO/CineCon/src/headers/ListaCompra.h
+	<vector>
+	"Bilhete.h"
+
+1683830371 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/Filme.cpp
+	"../headers/Filme.h"
+
+1683725842 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/ListaCliente.cpp
+	"../headers/ListaCliente.h"
+
+1683733108 /home/eramoss/www/Univali/POO/CineCon/src/headers/ListaCliente.h
+	"Cliente.h"
+	<vector>
+
+1684172475 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/ListaCompra.cpp
+	"../headers/ListaCompra.h"
+	<algorithm>
+
+1683826325 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/ListaFilme.cpp
+	"../headers/ListaFilme.h"
+
+1683827834 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/ListaSala.cpp
+	"../headers/ListaSala.h"
+
+1683827486 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/ListaSessao.cpp
+	"../headers/ListaSessao.h"
+	<algorithm>
+	<iostream>
+	<string>
+
+1683565893 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/Sala.cpp
+	"../headers/Sala.h"
+
+1684172098 source:/home/eramoss/www/Univali/POO/CineCon/src/classes/Sessao.cpp
+	"../headers/Sessao.h"
+	<iostream>
+	<assert.h>
+	<fmtmsg.h>
+
+1684270837 source:/home/eramoss/www/Univali/POO/CineCon/src/main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+	"macros.h"
+
+1683812188 /home/eramoss/www/Univali/POO/CineCon/src/macros.h
+	"./headers/Assento.h"
+	"./headers/Bilhete.h"
+	"./headers/Cliente.h"
+	"./headers/Filme.h"
+	"./headers/ListaCliente.h"
+	"./headers/ListaFilme.h"
+	"./headers/ListaSala.h"
+	"./headers/ListaSessao.h"
+	"./headers/ListaCompra.h"
+	"./headers/Sala.h"
+	"./headers/Sessao.h"
+	"./headers/AdminCinema.h"
+	"./headers/Pessoa.h"
+

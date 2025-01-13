@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CineCon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CineCon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CineCon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename="LICENSE" />
+		<Unit filename="UML-CineCon.drawio" />
+		<Unit filename="src/classes/AdminCinema.cpp" />
+		<Unit filename="src/classes/Assento.cpp" />
+		<Unit filename="src/classes/Bilhete.cpp" />
+		<Unit filename="src/classes/Cliente.cpp" />
+		<Unit filename="src/classes/Filme.cpp" />
+		<Unit filename="src/classes/ListaCliente.cpp" />
+		<Unit filename="src/classes/ListaCompra.cpp" />
+		<Unit filename="src/classes/ListaFilme.cpp" />
+		<Unit filename="src/classes/ListaSala.cpp" />
+		<Unit filename="src/classes/ListaSessao.cpp" />
+		<Unit filename="src/classes/Sala.cpp" />
+		<Unit filename="src/classes/Sessao.cpp" />
+		<Unit filename="src/headers/AdminCinema.h" />
+		<Unit filename="src/headers/Assento.h" />
+		<Unit filename="src/headers/Bilhete.h" />
+		<Unit filename="src/headers/Cinema.h" />
+		<Unit filename="src/headers/Cliente.h" />
+		<Unit filename="src/headers/Filme.h" />
+		<Unit filename="src/headers/ListaCliente.h" />
+		<Unit filename="src/headers/ListaCompra.h" />
+		<Unit filename="src/headers/ListaFilme.h" />
+		<Unit filename="src/headers/ListaSala.h" />
+		<Unit filename="src/headers/ListaSessao.h" />
+		<Unit filename="src/headers/Pessoa.h" />
+		<Unit filename="src/headers/Sala.h" />
+		<Unit filename="src/headers/Sessao.h" />
+		<Unit filename="src/macros.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
